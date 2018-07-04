@@ -1,6 +1,15 @@
 package Adventure.Characters;
 
-public class Ranger {
+import Adventure.Behaviours.IArmour;
+import Adventure.Behaviours.IWeapon;
 
-    public Ranger;
+public class Ranger extends Character{
+
+    public Ranger(String name, IWeapon weapon, IArmour armour) {
+        super(name, weapon, armour);
+    }
+
+
+
+
 }

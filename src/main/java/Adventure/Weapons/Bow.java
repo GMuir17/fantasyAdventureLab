@@ -1,4 +1,6 @@
 package Adventure.Weapons;
 
-public class Bow {
+import Adventure.Behaviours.IWeapon;
+
+public class Bow implements IWeapon {
 }
