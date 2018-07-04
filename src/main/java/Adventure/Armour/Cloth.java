@@ -1,4 +1,6 @@
 package Adventure.Armour;
 
-public class Cloth {
+import Adventure.Behaviours.IArmour;
+
+public class Cloth implements IArmour {
 }
