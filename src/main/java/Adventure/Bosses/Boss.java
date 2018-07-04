@@ -17,4 +17,8 @@ public abstract class Boss {
     public int getDamage() {
         return this.damage;
     }
+
+    public void decreaseHP(int hpLoss) {
+        this.hp -= hpLoss;
+    }
 }

@@ -1,6 +1,7 @@
 package Adventure.Weapons;
 
 import Adventure.Behaviours.IWeapon;
+import Adventure.Bosses.Boss;
 
 public class THAxe implements IWeapon {
 
@@ -14,8 +15,9 @@ public class THAxe implements IWeapon {
         return this.damage;
     }
 
-    public void doDamage(){
-
+    public void doDamage(Boss boss){
+        int bossHP = boss.getHP();
+        bossHP -= this.damage;
     }
 
 

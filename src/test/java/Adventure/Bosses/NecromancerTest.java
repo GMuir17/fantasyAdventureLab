@@ -23,4 +23,10 @@ public class NecromancerTest {
         public void hasDamage() {
             assertEquals(40, necromancer.getDamage());
         }
+
+    @Test
+    public void decreaseHP(){
+        necromancer.decreaseHP(10);
+        assertEquals(90, necromancer.getHP());
+    }
 }

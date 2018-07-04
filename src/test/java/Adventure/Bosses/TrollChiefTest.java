@@ -23,4 +23,10 @@ public class TrollChiefTest {
         public void hasDamage() {
             assertEquals(40, trollChief.getDamage());
         }
+
+    @Test
+    public void decreaseHP(){
+        trollChief.decreaseHP(10);
+        assertEquals(90, trollChief.getHP());
+    }
 }

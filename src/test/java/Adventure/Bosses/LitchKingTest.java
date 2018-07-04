@@ -23,4 +23,10 @@ public class LitchKingTest {
     public void hasDamage() {
         assertEquals(40, litchKing.getDamage());
     }
+
+    @Test
+    public void decreaseHP(){
+        litchKing.decreaseHP(10);
+        assertEquals(90, litchKing.getHP());
+    }
 }

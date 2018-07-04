@@ -1,6 +1,7 @@
 package Adventure.Weapons;
 
 import Adventure.Behaviours.IWeapon;
+import Adventure.Bosses.Boss;
 
 public class Sword implements IWeapon {
 
@@ -14,7 +15,7 @@ public class Sword implements IWeapon {
         return this.damage;
     }
 
-    public void doDamage(){
-
+    public void doDamage(Boss boss){
+        boss.decreaseHP(this.damage);
     }
 }

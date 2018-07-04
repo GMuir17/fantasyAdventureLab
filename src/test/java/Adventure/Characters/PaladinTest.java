@@ -1,6 +1,8 @@
 package Adventure.Characters;
 
 import Adventure.Armour.Plate;
+import Adventure.Behaviours.IWeapon;
+import Adventure.Bosses.Necromancer;
 import Adventure.Weapons.Bow;
 import Adventure.Weapons.Sword;
 import Adventure.Weapons.Sword;
@@ -14,12 +16,14 @@ public class PaladinTest {
     Paladin paladin;
     Sword sword;
     Plate plate;
+    Necromancer necromancer;
 
     @Before
     public void setUp() {
         sword = new Sword();
         plate   = new Plate();
         paladin = new Paladin("Otto", sword, plate);
+        necromancer = new Necromancer(100, 40);
     }
 
     @Test
@@ -58,8 +62,15 @@ public class PaladinTest {
     @Test
     public void canChangeWeapon() {
         Bow bow = new Bow();
-        paladin.changeWeapon(sword);
-        assertEquals(sword, paladin.getWeapon());
+        paladin.changeWeapon(bow);
+        assertEquals(bow, paladin.getWeapon());
+    }
+
+    @Test
+    public void canDoDamage() {
+        IWeapon sword = paladin.getWeapon();
+        sword.doDamage(necromancer);
+        assertEquals(88, necromancer.getHP());
     }
 
 
