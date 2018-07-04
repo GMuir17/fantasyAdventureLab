@@ -1,4 +1,6 @@
 package Adventure.Weapons;
 
-public class Mace {
+import Adventure.Behaviours.IWeapon;
+
+public class Mace implements IWeapon {
 }
