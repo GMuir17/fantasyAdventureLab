@@ -1,4 +1,6 @@
 package Adventure.Armour;
 
-public class Plate {
+import Adventure.Behaviours.IArmour;
+
+public class Plate implements IArmour {
 }

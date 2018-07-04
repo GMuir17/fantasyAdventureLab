@@ -113,6 +113,19 @@
       <find>Leather</find>
       <find>Bow</find>
       <find>bow</find>
+      <find>Wizard</find>
+      <find>wizard</find>
+      <find>staff</find>
+      <find>Staff</find>
+      <find>Gandalf</find>
+      <find>Cloth</find>
+      <find>cloth</find>
+      <find>Barbarian</find>
+      <find>barbarian</find>
+      <find>THAxe</find>
+      <find>tHAxe</find>
+      <find>ChainMail</find>
+      <find>chainMail</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -566,7 +579,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BarbarianTest">
+  <component name="RunManager" selected="JUnit.PaladinTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -593,6 +606,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PaladinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fantasyAdventureLab_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adventure.Characters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Adventure.Characters" />
+      <option name="MAIN_CLASS_NAME" value="Adventure.Characters.PaladinTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="RangerTest.canChangeWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fantasyAdventureLab_test" />
       <extension name="coverage">
@@ -606,29 +642,6 @@
       <option name="PACKAGE_NAME" value="Adventure.Characters" />
       <option name="MAIN_CLASS_NAME" value="Adventure.Characters.RangerTest" />
       <option name="METHOD_NAME" value="canChangeWeapon" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RangerTest.canIncreaseHPIfLow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fantasyAdventureLab_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Adventure.Characters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Adventure.Characters" />
-      <option name="MAIN_CLASS_NAME" value="Adventure.Characters.RangerTest" />
-      <option name="METHOD_NAME" value="canIncreaseHPIfLow" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -724,19 +737,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RangerTest.canIncreaseHPIfLow" />
       <item itemvalue="JUnit.RangerTest.canChangeWeapon" />
       <item itemvalue="JUnit.SorcererTest" />
       <item itemvalue="JUnit.WizardTest" />
       <item itemvalue="JUnit.BarbarianTest" />
+      <item itemvalue="JUnit.PaladinTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaladinTest" />
         <item itemvalue="JUnit.BarbarianTest" />
         <item itemvalue="JUnit.WizardTest" />
         <item itemvalue="JUnit.SorcererTest" />
         <item itemvalue="JUnit.RangerTest.canChangeWeapon" />
-        <item itemvalue="JUnit.RangerTest.canIncreaseHPIfLow" />
       </list>
     </recent_temporary>
   </component>
