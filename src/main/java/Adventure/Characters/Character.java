@@ -3,6 +3,7 @@ package Adventure.Characters;
 import Adventure.Armour.Leather;
 import Adventure.Behaviours.IArmour;
 import Adventure.Behaviours.IWeapon;
+import Adventure.Bosses.Boss;
 import Adventure.Weapons.Bow;
 
 public abstract class Character {
@@ -68,7 +69,9 @@ public abstract class Character {
         this.weapon = newWeapon;
     }
 
-
+    public void meleeAttack(Boss boss) {
+        this.weapon.doDamage(boss);
+    }
 
 
 

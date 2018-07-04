@@ -73,5 +73,10 @@ public class ClericTest {
         assertEquals(92, necromancer.getHP());
     }
 
+    @Test
+    public void canMeleeAttack() {
+        cleric.meleeAttack(necromancer);
+        assertEquals(92, necromancer.getHP());
+    }
 
 }

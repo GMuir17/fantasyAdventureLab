@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6603b5de-165e-4a9c-b6ef-5b9efb05f691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Bow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Mace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Mace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/THAxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/THAxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Wand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Adventure/Characters/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Adventure/Characters/BarbarianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure/Characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure/Characters/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure/Characters/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure/Characters/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure/Rooms/BossRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure/Rooms/BossRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure/Rooms/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Adventure/Characters/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Adventure/Characters/ClericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Adventure/Characters/PaladinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Adventure/Characters/PaladinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Adventure/Characters/RangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Adventure/Characters/RangerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Adventure/Characters/SorcererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Adventure/Characters/SorcererTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Adventure/Characters/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Adventure/Characters/WizardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Adventure/Rooms/BossRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Adventure/Rooms/BossRoomTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,139 +28,29 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="PaladinTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/PaladinTest.java">
+          <file leaf-file-name="Room.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Rooms/Room.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="67" selection-start-line="67" selection-end-line="72" selection-end-column="5" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#529#530#0" expanded="true" />
-                    <element signature="e#584#585#0" expanded="true" />
-                    <element signature="e#621#622#0" expanded="true" />
-                    <element signature="e#671#672#0" expanded="true" />
-                    <element signature="e#712#713#0" expanded="true" />
-                    <element signature="e#768#769#0" expanded="true" />
-                    <element signature="e#809#810#0" expanded="true" />
-                    <element signature="e#866#867#0" expanded="true" />
+                    <element signature="e#346#347#0" expanded="true" />
+                    <element signature="e#378#379#0" expanded="true" />
+                    <element signature="e#420#421#0" expanded="true" />
+                    <element signature="e#441#442#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BarbarianTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/BarbarianTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="66" selection-start-line="66" selection-end-line="71" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ClericTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/ClericTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RangerTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/RangerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-479">
-                  <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SorcererTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/SorcererTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="271">
-                  <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="WizardTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/WizardTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-464">
-                  <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#495#496#0" expanded="true" />
-                    <element signature="e#552#553#0" expanded="true" />
-                    <element signature="e#589#590#0" expanded="true" />
-                    <element signature="e#638#639#0" expanded="true" />
-                    <element signature="e#679#680#0" expanded="true" />
-                    <element signature="e#734#735#0" expanded="true" />
-                    <element signature="e#775#776#0" expanded="true" />
-                    <element signature="e#830#831#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="THAxe.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/THAxe.java">
+          <file leaf-file-name="BossRoom.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Rooms/BossRoom.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="210">
-                  <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#314#315#0" expanded="true" />
-                    <element signature="e#358#359#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Wand.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/Wand.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#311#312#0" expanded="true" />
-                    <element signature="e#355#356#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Sorcerer.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Characters/Sorcerer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#213#214#0" expanded="true" />
-                    <element signature="e#256#257#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Staff.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/Staff.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#313#314#0" expanded="true" />
-                    <element signature="e#357#358#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -175,69 +60,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="TrollChief.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Bosses/TrollChief.java">
+          <file leaf-file-name="BossRoomTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Rooms/BossRoomTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-                  <folding>
-                    <element signature="e#112#113#0" expanded="true" />
-                    <element signature="e#145#146#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="IWeapon.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Behaviours/IWeapon.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Sword.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/Sword.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="37" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#314#315#0" expanded="true" />
-                    <element signature="e#347#348#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Boss.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Bosses/Boss.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#354#355#0" expanded="true" />
-                    <element signature="e#373#374#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LitchKing.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Bosses/LitchKing.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LitchKingTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Bosses/LitchKingTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="271">
-                  <caret line="26" selection-start-line="26" selection-end-line="30" selection-end-column="5" />
+                <state relative-caret-position="315">
+                  <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -245,31 +72,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="NecromancerTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Bosses/NecromancerTest.java">
+          <file leaf-file-name="PaladinTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/PaladinTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="327">
-                  <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+                <state relative-caret-position="945">
+                  <caret line="67" selection-start-line="67" selection-end-line="72" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#232#233#0" expanded="true" />
-                    <element signature="e#299#300#0" expanded="true" />
-                    <element signature="e#344#345#0" expanded="true" />
-                    <element signature="e#406#407#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TrollChiefTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Bosses/TrollChiefTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#229#230#0" expanded="true" />
-                    <element signature="e#294#295#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -626,11 +435,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Adventure/Behaviours/IUltimate.java" />
         <option value="$PROJECT_DIR$/src/main/java/Adventure/Behaviours/IBoss.java" />
         <option value="$PROJECT_DIR$/src/main/java/Adventure/Characters/Ranger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Adventure/Characters/Character.java" />
         <option value="$PROJECT_DIR$/src/main/java/Adventure/Characters/Sorcerer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Adventure/Characters/Wizard.java" />
         <option value="$PROJECT_DIR$/src/main/java/Adventure/Characters/Barbarian.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Adventure/Characters/Cleric.java" />
         <option value="$PROJECT_DIR$/src/main/java/Adventure/Behaviours/IMelee.java" />
         <option value="$PROJECT_DIR$/src/test/java/Adventure/Weapons/WandTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Adventure/Weapons/BowTest.java" />
@@ -664,10 +471,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Staff.java" />
         <option value="$PROJECT_DIR$/src/main/java/Adventure/Weapons/Mace.java" />
         <option value="$PROJECT_DIR$/src/test/java/Adventure/Characters/BarbarianTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Adventure/Characters/ClericTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Adventure/Characters/RangerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Adventure/Characters/SorcererTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Adventure/Characters/WizardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Adventure/Characters/Cleric.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Adventure/Characters/Character.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Adventure/Characters/ClericTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Adventure/Rooms/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Adventure/Rooms/BossRoom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Adventure/Rooms/BossRoomTest.java" />
       </list>
     </option>
   </component>
@@ -722,6 +534,15 @@
               <item name="fantasyAdventureLab" type="b2602c69:ProjectViewProjectNode" />
               <item name="fantasyAdventureLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Adventure" type="462c0819:PsiDirectoryNode" />
+              <item name="Rooms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fantasyAdventureLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fantasyAdventureLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -748,6 +569,15 @@
               <item name="Adventure" type="462c0819:PsiDirectoryNode" />
               <item name="Characters" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fantasyAdventureLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fantasyAdventureLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Adventure" type="462c0819:PsiDirectoryNode" />
+              <item name="Rooms" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -770,32 +600,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WizardTest.canDoDamage">
+  <component name="RunManager" selected="JUnit.ClericTest.canMeleeAttack">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BarbarianTest.canDoDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fantasyAdventureLab_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Adventure.Characters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Adventure.Characters" />
-      <option name="MAIN_CLASS_NAME" value="Adventure.Characters.BarbarianTest" />
-      <option name="METHOD_NAME" value="canDoDamage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ClericTest.canDoDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fantasyAdventureLab_test" />
@@ -810,6 +617,29 @@
       <option name="PACKAGE_NAME" value="Adventure.Characters" />
       <option name="MAIN_CLASS_NAME" value="Adventure.Characters.ClericTest" />
       <option name="METHOD_NAME" value="canDoDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ClericTest.canMeleeAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fantasyAdventureLab_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adventure.Characters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Adventure.Characters" />
+      <option name="MAIN_CLASS_NAME" value="Adventure.Characters.ClericTest" />
+      <option name="METHOD_NAME" value="canMeleeAttack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -928,19 +758,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.BarbarianTest.canDoDamage" />
       <item itemvalue="JUnit.ClericTest.canDoDamage" />
       <item itemvalue="JUnit.RangerTest.canDoDamage" />
       <item itemvalue="JUnit.SorcererTest.canDoDamage" />
       <item itemvalue="JUnit.WizardTest.canDoDamage" />
+      <item itemvalue="JUnit.ClericTest.canMeleeAttack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClericTest.canMeleeAttack" />
         <item itemvalue="JUnit.WizardTest.canDoDamage" />
         <item itemvalue="JUnit.SorcererTest.canDoDamage" />
         <item itemvalue="JUnit.RangerTest.canDoDamage" />
         <item itemvalue="JUnit.ClericTest.canDoDamage" />
-        <item itemvalue="JUnit.BarbarianTest.canDoDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -958,12 +788,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaladinTest_canDoDamage - 2018.07.04 at 14h 21m 56s.xml">
-      <configuration name="PaladinTest.canDoDamage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LitchKingTest_decreaseHP - 2018.07.04 at 14h 25m 48s.xml">
-      <configuration name="LitchKingTest.decreaseHP" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_fantasyAdventureLab_test - 2018.07.04 at 14h 27m 08s.xml">
       <configuration name="All in fantasyAdventureLab_test" configurationId="JUnit" />
     </history-entry>
@@ -988,6 +812,12 @@
     <history-entry file="SorcererTest_canDoDamage - 2018.07.04 at 14h 36m 21s.xml">
       <configuration name="SorcererTest.canDoDamage" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WizardTest_canDoDamage - 2018.07.04 at 14h 37m 23s.xml">
+      <configuration name="WizardTest.canDoDamage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClericTest_canMeleeAttack - 2018.07.04 at 14h 41m 14s.xml">
+      <configuration name="ClericTest.canMeleeAttack" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1001,7 +831,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32965517" />
       <window_info id="Capture Tool" />
@@ -1032,27 +862,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Behaviours/ISummon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Behaviours/ISpellAttack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Behaviours/IUltimate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Behaviours/IHeal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1088,30 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Characters/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Characters/Ranger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1132,18 +917,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Characters/Cleric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1374,17 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Bosses/TrollChief.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Characters/Paladin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1451,25 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Behaviours/IWeapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/Bow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/Mace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1482,18 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/Sword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/Staff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1502,6 +1233,67 @@
             <element signature="imports" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/RangerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/Sword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Behaviours/IWeapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/WizardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/SorcererTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/BarbarianTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="66" selection-start-line="66" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1530,10 +1322,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Bosses/TrollChief.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Characters/Sorcerer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
@@ -1542,72 +1345,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/PaladinTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Weapons/Bow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="67" selection-start-line="67" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/BarbarianTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Characters/Cleric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="66" selection-start-line="66" selection-end-line="71" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Characters/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/ClericTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="525">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/RangerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Rooms/BossRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/SorcererTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/WizardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-464">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Adventure/Rooms/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Characters/PaladinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="67" selection-start-line="67" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Adventure/Rooms/BossRoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
