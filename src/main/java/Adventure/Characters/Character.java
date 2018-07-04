@@ -64,6 +64,10 @@ public abstract class Character {
         }
     }
 
+    public void changeWeapon(IWeapon newWeapon) {
+        this.weapon = newWeapon;
+    }
+
 
 
 

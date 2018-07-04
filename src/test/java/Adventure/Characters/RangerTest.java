@@ -2,6 +2,7 @@ package Adventure.Characters;
 
 import Adventure.Armour.Leather;
 import Adventure.Weapons.Bow;
+import Adventure.Weapons.Sword;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -53,7 +54,12 @@ public class RangerTest {
         assertEquals(100, ranger.getHP());
     }
 
-
+    @Test
+    public void canChangeWeapon() {
+        Sword sword = new Sword();
+        ranger.changeWeapon(sword);
+        assertEquals(sword, ranger.getWeapon());
+    }
 
 
 }
