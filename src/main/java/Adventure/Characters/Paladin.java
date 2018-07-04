@@ -9,7 +9,10 @@ public class Paladin extends Character{
         super(name, weapon, armour);
     }
 
-
+    public void attack() {
+        IWeapon weapon = this.getWeapon();
+        weapon.doDamage();
+    }
 
 
 }
