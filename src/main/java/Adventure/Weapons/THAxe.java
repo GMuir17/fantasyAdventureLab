@@ -1,4 +1,6 @@
 package Adventure.Weapons;
 
-public class THAxe {
+import Adventure.Behaviours.IWeapon;
+
+public class THAxe implements IWeapon {
 }

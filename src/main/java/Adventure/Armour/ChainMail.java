@@ -1,4 +1,6 @@
 package Adventure.Armour;
 
-public class ChainMail {
+import Adventure.Behaviours.IArmour;
+
+public class ChainMail implements IArmour {
 }
