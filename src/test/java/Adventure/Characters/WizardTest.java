@@ -61,5 +61,9 @@ public class WizardTest {
         assertEquals(sword, wizard.getWeapon());
     }
 
+//    @Test
+//    public void wandHasDamage() {
+//        assertEquals(3, wizard.getWeapon().);
+//    }
 
 }

@@ -2,6 +2,7 @@ package Adventure.Characters;
 
 import Adventure.Armour.Cloth;
 import Adventure.Armour.Leather;
+import Adventure.Behaviours.IWeapon;
 import Adventure.Weapons.Bow;
 import Adventure.Weapons.Sword;
 import Adventure.Weapons.Wand;
@@ -62,6 +63,7 @@ public class SorcererTest {
         sorcerer.changeWeapon(sword);
         assertEquals(sword, sorcerer.getWeapon());
     }
+
 
 
 }
