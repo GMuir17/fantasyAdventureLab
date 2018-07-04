@@ -3,7 +3,7 @@ package Adventure.Characters;
 import Adventure.Behaviours.IArmour;
 import Adventure.Behaviours.IWeapon;
 
-public class Paladin extends Character{
+public class Paladin extends PlayerCharacter {
 
     public Paladin(String name, IWeapon weapon, IArmour armour) {
         super(name, weapon, armour);

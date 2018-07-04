@@ -1,5 +1,8 @@
 package Adventure.Bosses;
 
+import Adventure.Behaviours.IArmour;
+import Adventure.Characters.PlayerCharacter;
+
 public abstract class Boss {
 
     private int hp;
@@ -20,5 +23,11 @@ public abstract class Boss {
 
     public void decreaseHP(int hpLoss) {
         this.hp -= hpLoss;
+    }
+
+    public void attack(PlayerCharacter character) {
+        int armourValue = character.getArmourValue();
+        int armourPiercing = (this.damage - armourValue);
+        character.decreaseHP(armourPiercing);
     }
 }

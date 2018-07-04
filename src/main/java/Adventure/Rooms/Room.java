@@ -1,13 +1,14 @@
 package Adventure.Rooms;
 
 import Adventure.Bosses.Boss;
+import Adventure.Characters.PlayerCharacter;
 
 import java.util.ArrayList;
 
 public abstract class Room {
 
     private String theme;
-    private ArrayList<Character> party;
+    private ArrayList<PlayerCharacter> party;
 
     public Room(String theme, ArrayList party) {
         this.theme = theme;

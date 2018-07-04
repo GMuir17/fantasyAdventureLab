@@ -6,14 +6,14 @@ import Adventure.Behaviours.IWeapon;
 import Adventure.Bosses.Boss;
 import Adventure.Weapons.Bow;
 
-public abstract class Character {
+public abstract class PlayerCharacter {
 
     private int hp;
     private String name;
     private IWeapon weapon;
     private IArmour armour;
 
-    public Character(String name, IWeapon weapon, IArmour armour){
+    public PlayerCharacter(String name, IWeapon weapon, IArmour armour){
         this.hp = 100;
         this.name = name;
         this.weapon = weapon;
@@ -34,6 +34,11 @@ public abstract class Character {
 
     public IArmour getArmour() {
         return this.armour;
+    }
+
+    public int getArmourValue() {
+        IArmour armour = this.getArmour();
+        return armour.getArmourRating();
     }
 
     public void decreaseHP(int hpLoss) {
