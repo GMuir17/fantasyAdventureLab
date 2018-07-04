@@ -3,6 +3,7 @@ package Adventure.Characters;
 import Adventure.Armour.Cloth;
 import Adventure.Armour.Leather;
 import Adventure.Behaviours.IWeapon;
+import Adventure.Bosses.Necromancer;
 import Adventure.Weapons.Bow;
 import Adventure.Weapons.Sword;
 import Adventure.Weapons.Wand;
@@ -16,9 +17,11 @@ public class SorcererTest {
     Sorcerer sorcerer;
     Wand wand;
     Cloth cloth;
+    Necromancer necromancer;
 
     @Before
     public void setUp() {
+        necromancer = new Necromancer(100, 40);
         wand = new Wand();
         cloth = new Cloth();
         sorcerer = new Sorcerer("Saruman", wand, cloth);
@@ -62,6 +65,13 @@ public class SorcererTest {
         Sword sword = new Sword();
         sorcerer.changeWeapon(sword);
         assertEquals(sword, sorcerer.getWeapon());
+    }
+
+    @Test
+    public void canDoDamage() {
+        IWeapon wand = sorcerer.getWeapon();
+        wand.doDamage(necromancer);
+        assertEquals(97, necromancer.getHP());
     }
 
 

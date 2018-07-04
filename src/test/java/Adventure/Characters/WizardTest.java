@@ -1,6 +1,8 @@
 package Adventure.Characters;
 
 import Adventure.Armour.Cloth;
+import Adventure.Behaviours.IWeapon;
+import Adventure.Bosses.Necromancer;
 import Adventure.Weapons.Staff;
 import Adventure.Weapons.Sword;
 import org.junit.Before;
@@ -13,9 +15,11 @@ public class WizardTest {
     Wizard wizard;
     Staff staff;
     Cloth cloth;
+    Necromancer necromancer;
 
     @Before
     public void setUp() {
+        necromancer = new Necromancer(100, 40);
         staff = new Staff();
         cloth = new Cloth();
         wizard = new Wizard("Gandalf", staff, cloth);
@@ -61,9 +65,11 @@ public class WizardTest {
         assertEquals(sword, wizard.getWeapon());
     }
 
-//    @Test
-//    public void wandHasDamage() {
-//        assertEquals(3, wizard.getWeapon().);
-//    }
+    @Test
+    public void canDoDamage() {
+        IWeapon staff = wizard.getWeapon();
+        staff.doDamage(necromancer);
+        assertEquals(96, necromancer.getHP());
+    }
 
 }

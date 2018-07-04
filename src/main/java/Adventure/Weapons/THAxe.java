@@ -16,8 +16,7 @@ public class THAxe implements IWeapon {
     }
 
     public void doDamage(Boss boss){
-        int bossHP = boss.getHP();
-        bossHP -= this.damage;
+        boss.decreaseHP(this.damage);
     }
 
 

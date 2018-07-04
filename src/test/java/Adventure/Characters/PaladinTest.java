@@ -5,7 +5,6 @@ import Adventure.Behaviours.IWeapon;
 import Adventure.Bosses.Necromancer;
 import Adventure.Weapons.Bow;
 import Adventure.Weapons.Sword;
-import Adventure.Weapons.Sword;
 import org.junit.Before;
 import org.junit.Test;
 

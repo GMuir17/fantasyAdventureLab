@@ -1,6 +1,8 @@
 package Adventure.Characters;
 
 import Adventure.Armour.Leather;
+import Adventure.Behaviours.IWeapon;
+import Adventure.Bosses.Necromancer;
 import Adventure.Weapons.Bow;
 import Adventure.Weapons.Sword;
 import org.junit.Before;
@@ -13,9 +15,11 @@ public class RangerTest {
     Ranger ranger;
     Bow bow;
     Leather leather;
+    Necromancer necromancer;
 
     @Before
     public void setUp() {
+        necromancer = new Necromancer(100, 40);
         bow = new Bow();
         leather = new Leather();
         ranger = new Ranger("Aragorn", bow, leather);
@@ -59,6 +63,13 @@ public class RangerTest {
         Sword sword = new Sword();
         ranger.changeWeapon(sword);
         assertEquals(sword, ranger.getWeapon());
+    }
+
+    @Test
+    public void canDoDamage() {
+        IWeapon bow = ranger.getWeapon();
+        bow.doDamage(necromancer);
+        assertEquals(90, necromancer.getHP());
     }
 
 

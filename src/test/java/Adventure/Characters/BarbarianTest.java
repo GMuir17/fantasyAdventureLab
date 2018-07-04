@@ -1,6 +1,8 @@
 package Adventure.Characters;
 
 import Adventure.Armour.ChainMail;
+import Adventure.Behaviours.IWeapon;
+import Adventure.Bosses.Necromancer;
 import Adventure.Weapons.THAxe;
 import Adventure.Weapons.Sword;
 import org.junit.Before;
@@ -13,9 +15,11 @@ public class BarbarianTest {
     Barbarian barbarian;
     THAxe tHAxe;
     ChainMail chainMail;
+    Necromancer necromancer;
 
     @Before
     public void setUp() {
+        necromancer = new Necromancer(100, 40);
         tHAxe = new THAxe();
         chainMail   = new ChainMail();
         barbarian = new Barbarian("Conan", tHAxe, chainMail);
@@ -59,6 +63,12 @@ public class BarbarianTest {
         Sword sword = new Sword();
         barbarian.changeWeapon(sword);
         assertEquals(sword, barbarian.getWeapon());
+    }
+    @Test
+    public void canDoDamage() {
+        IWeapon THaxe = barbarian.getWeapon();
+        THaxe.doDamage(necromancer);
+        assertEquals(80, necromancer.getHP());
     }
 
 
