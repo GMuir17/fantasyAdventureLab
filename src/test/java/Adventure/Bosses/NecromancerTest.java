@@ -29,4 +29,17 @@ public class NecromancerTest {
         necromancer.decreaseHP(10);
         assertEquals(90, necromancer.getHP());
     }
+
+    @Test
+    public void canDie() {
+            necromancer.decreaseHP(100);
+            assertEquals(true, necromancer.isDead());
+    }
+
+    @Test
+    public void isNotDead() {
+            assertEquals(false, necromancer.isDead());
+    }
+
+
 }
