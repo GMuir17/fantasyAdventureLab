@@ -34,4 +34,57 @@ public abstract class Character {
     public IArmour getArmour() {
         return this.armour;
     }
+
+    public void decreaseHP(int hpLoss) {
+        this.hp -= hpLoss;
+    }
+
+    public void setHP(int newHP){
+        this.hp = newHP;
+    }
+
+    public void increaseHP(int hpGain) {
+        int maxHP = 100;
+        if(this.hp < maxHP){
+           if (compareHP(hpGain) == true) {
+               setHP(maxHP);
+            }
+            else {
+               this.hp += hpGain;
+           }
+        }
+    }
+
+    public boolean compareHP(int hpGain){
+        if (this.hp + hpGain >= 100) {
+            return true;
+            }
+            else {
+            return false;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

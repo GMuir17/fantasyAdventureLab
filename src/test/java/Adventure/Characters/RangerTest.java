@@ -40,4 +40,20 @@ public class RangerTest {
         assertEquals(leather, ranger.getArmour());
     }
 
+    @Test
+    public void canDecreaseHP() {
+        ranger.decreaseHP(10);
+        assertEquals(90, ranger.getHP());
+    }
+
+    @Test
+    public void canIncreaseHPIfLow() {
+        ranger.decreaseHP(20);
+        ranger.increaseHP(30);
+        assertEquals(100, ranger.getHP());
+    }
+
+
+
+
 }
