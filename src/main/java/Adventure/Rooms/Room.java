@@ -24,4 +24,7 @@ public abstract class Room {
     }
 
 
+    public int partyCount() {
+        return party.size();
+    }
 }
